@@ -137,4 +137,6 @@ Pod::Spec.new do |s|
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
     s.dependency "CTMediator"
+    s.version = "1.0.0"
+
 end
