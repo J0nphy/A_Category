@@ -13,6 +13,6 @@ public extension CTMediator{
     
     func A_aViewController() -> UIViewController {
         
-        return self.performTarget("A", action: "viewController", params: [kCTMediatorParamsKeySwiftTargetModuleName:"A_Category"], shouldCacheTarget: false) as! UIViewController
+        return self.performTarget("A", action: "viewController", params: [kCTMediatorParamsKeySwiftTargetModuleName:"A"], shouldCacheTarget: false) as! UIViewController
     }
 }
